@@ -10,3 +10,10 @@ class Barcos:
 
     def esta_hundido(self):
         return self.golpes_recibidos >= self.longitud
+
+    def mostrar_estado(self):
+        print(f"Barco: {self.nombre}")
+        print(f"Longitud: {self.longitud}")
+        print(f"Golpes recibidos: {self.golpes_recibidos}")
+        print(f"Hundido: {self.esta_hundido()}")
+        print("-" * 20)
