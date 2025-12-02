@@ -25,4 +25,10 @@ if __name__ == "__main__":
     submarino = Barcos("Submarino", 1)
     velero = Barcos("Velero", 3)
 
+    # Prueba Submarino
+    print("Pruebas con el Submarino:")
+    submarino.mostrar_estado()
+    submarino.recibir_impacto()
+    submarino.mostrar_estado()
+
 
