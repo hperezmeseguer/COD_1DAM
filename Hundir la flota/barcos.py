@@ -3,3 +3,7 @@ class Barcos:
         self.nombre = nombre
         self.longitud = longitud
         self.golpes_recibidos = 0
+
+    def recibir_impacto(self):
+        if self.golpes_recibidos < self.longitud:
+            self.golpes_recibidos += 1
