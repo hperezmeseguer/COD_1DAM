@@ -20,3 +20,7 @@ class Barcos:
 
 # PRUEBAS
 
+if __name__ == "__main__":
+    # Creación barcos
+    submarino = Barcos("Submarino", 1)
+    velero = Barcos("Buque", 3)
