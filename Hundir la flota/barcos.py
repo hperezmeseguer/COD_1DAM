@@ -31,4 +31,13 @@ if __name__ == "__main__":
     submarino.recibir_impacto()
     submarino.mostrar_estado()
 
+    # Prueba Velero
+    print("Pruebas con el Velero:")
+    velero.mostrar_estado()
+    velero.recibir_impacto()
+    velero.recibir_impacto()
+    velero.mostrar_estado()
+    velero.recibir_impacto()
+    velero.mostrar_estado()
+
 
