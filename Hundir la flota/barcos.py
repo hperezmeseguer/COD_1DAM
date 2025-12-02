@@ -9,4 +9,4 @@ class Barcos:
             self.golpes_recibidos += 1
 
     def esta_hundido(self):
-        return self.golpess_recibidos >= self.longitud
+        return self.golpes_recibidos >= self.longitud
