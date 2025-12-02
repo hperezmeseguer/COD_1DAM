@@ -23,4 +23,6 @@ class Barcos:
 if __name__ == "__main__":
     # Creación barcos
     submarino = Barcos("Submarino", 1)
-    velero = Barcos("Buque", 3)
+    velero = Barcos("Velero", 3)
+
+
