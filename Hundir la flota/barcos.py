@@ -17,3 +17,6 @@ class Barcos:
         print(f"Golpes recibidos: {self.golpes_recibidos}")
         print(f"Hundido: {self.esta_hundido()}")
         print("-" * 20)
+
+# PRUEBAS
+
