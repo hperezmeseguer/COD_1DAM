@@ -23,7 +23,7 @@ class Barcos:
 if __name__ == "__main__":
     # Creación barcos
     submarino = Barcos("Submarino", 1)
-    velero = Barcos("Velero", 3)
+    buque = Barcos("Buque", 3)
 
     # Prueba Submarino
     print("Pruebas con el Submarino:")
@@ -31,13 +31,13 @@ if __name__ == "__main__":
     submarino.recibir_impacto()
     submarino.mostrar_estado()
 
-    # Prueba Velero
-    print("Pruebas con el Velero:")
-    velero.mostrar_estado()
-    velero.recibir_impacto()
-    velero.recibir_impacto()
-    velero.mostrar_estado()
-    velero.recibir_impacto()
-    velero.mostrar_estado()
+    # Prueba Buque
+    print("Pruebas con el Buque:")
+    buque.mostrar_estado()
+    buque.recibir_impacto()
+    buque.recibir_impacto()
+    buque.mostrar_estado()
+    buque.recibir_impacto()
+    buque.mostrar_estado()
 
 
